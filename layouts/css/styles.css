@@ -1,0 +1,854 @@
+
+/* variable declaration */
+
+:root{
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color:  #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: rgb(59, 59, 59);
+    --card-color: #F5F3EE;
+}
+
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+/* navbar and logo styles */
+
+.navbar{
+    background-color: var(--nav-bg-color);
+
+}
+.menu-link{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    
+}
+
+.nav-menu-list{
+    text-decoration:none;
+    text-align: right;
+    font-family: var(--nav-menu-text);
+    list-style-type: none; 
+    display: inline; 
+}
+.nav-menu{
+    display: inline;
+    margin: 30px;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+/* navbar sign up button */
+
+.signup{
+    background-color: #F7CB73;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.signup .sign-up-menu:hover, .signup:hover{
+    background-color: rgb(21, 21, 21);
+    color: rgb(28, 255, 153);
+}
+
+.logo-img{
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+.logo{
+    color: rgb(58, 58, 252);
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 15px;
+    padding: 8px;
+    display: inline;
+    background-color: var(--nav-bg-color);
+}
+
+
+.nav-menu-div{
+    background-color: var(--nav-bg-color);
+    padding: 15px;
+}
+
+.menu-link:hover{
+    color: black;
+    border-bottom: 2px solid #0C0CF5;
+}
+
+
+
+/* styling upper section */
+.upper-section{
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+.left-upper-section{
+    background-color: var(--background-color);
+    margin: 0px auto 20px;
+    padding: 50px;
+    background-image: url('../assets/homeBg.jpeg');
+    opacity: 1.5;
+    image-rendering: pixelated;
+    
+}
+
+
+
+.upper-title{
+    color: whitesmoke;
+    font-size: 4.5rem;
+    font-family: var(--title-text);
+    font-weight: 900;
+    margin: 20px 0 25px 50px;
+    font-weight: 600;
+
+}
+
+
+.title-word-color-black{
+    color: #F7CB73;
+}
+
+/* view service style */
+
+.get-started-btn{
+    background-color: #F7CB73;
+    color: var(--nav-text-color);
+    font-family: var(--title-text);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 40px 0 15px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.get-started-btn:hover{
+    color: rgb(22, 22, 22);
+    background-color: #f8bd46;
+}
+
+.view-menu-btn:hover{
+    background-color: #ff9864;
+}
+
+
+
+/* middle section style */
+
+.middle-section{
+    background-color: white;
+    margin: 100px 60px;
+}
+
+.middle-title{
+    margin: 25px auto 20px auto;
+    text-align: center;
+    font-family: var(--title-text);
+    color: rgb(68, 68, 68);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.middle-sub-title{
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1.1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    width: 49%;
+    line-height: 1.3;
+    font-weight: 200;
+}
+
+.middle-sub-section{
+    margin: 20px 140px;
+    display: inline-block;
+    width: 77%;
+    text-align: justify;
+    
+}
+
+.middle-description-1, .middle-description-2, .middle-description-3{
+    font-size: 1.1rem;
+    color: var(--body-text-color);
+    font-family: var(--body-text);
+    line-height: 1.3;
+    text-justify: inter-word;
+    font-weight: 300;
+    
+}
+
+.middle-description-2{
+    position: relative;
+    top: 25px;
+    left: 2%;
+}
+
+.middle-description-1, .middle-description-3{
+    position: relative;
+    top: 100px;
+    right: 2%;
+}
+
+
+.middle-img-1, .middle-img-2, .middle-img-3{
+    width: 350px;
+    border: 1px solid #F3C871;
+}
+
+.middle-img-1, .middle-img-3{
+    float: right;
+    position: relative;
+    left: 2%;
+}
+
+.middle-img-2{
+    position: relative;
+    float: left;
+    right: 2%;
+
+}
+
+/* styling footer */
+
+.footer-body{
+    margin: 30px 0px 0px;
+    padding: 30px 150px;
+    background-color: var(--footer-bg-color);
+    color: white;
+    font-size: 1rem;
+    font-family: var(--body-text);
+    font-weight: 300;
+    
+}
+.section-2 .menu-link{
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.section-2 .menu-link:hover{
+    color: #f89838;
+}
+
+
+.section-1, .section-2, .section-3{
+    margin: 20px auto;
+    padding: 10px 0px;
+    text-align: left;    
+}
+
+.section-1{
+    float: left;
+    width: 20vw;
+    line-height: 1.3;
+    position: relative;
+    top: 10px;
+    left: 13%;
+}
+
+.footer-address{
+    position: relative;
+    left: 5%;
+}
+
+.section-2{
+    float: left;
+    width: 30vw;
+    text-align: center;
+    
+}
+
+.section-3{
+    line-height: 1.6;
+    
+}
+
+.newsletter-input{
+    width: 15%;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid var(--nav-bg-color);
+    margin-top: 5px;
+}
+.section-3-description{
+    margin-bottom: 5px;
+}
+
+.newsletter-input::placeholder{
+    padding: 5px;
+}
+
+.newsletter-submit-btn{
+    background-color: #000000;
+    color: #f89838;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-submit-btn:hover{
+    cursor: pointer;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* ---------------------------------------- */
+
+/* about us page style */
+.about-us-div{
+    margin: 40px 30px;
+    text-align: left;
+    width: 50vw;
+    float: left;
+}
+
+.about-title{
+    text-align: center;
+    margin: 25px 25px 15px;
+    color: var(--title-text-color);
+    font-size: 2.5rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+}
+
+.about-subtitle{
+    color: #ff8e24;
+    font-family: var(--title-text);
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    font-weight: 800;
+
+}
+
+.about-description{
+    color: var(--title-text-color);
+    font-size: 4.6rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+
+}
+
+.about-sub-description{
+    color: var(--body-text-color);
+    margin: 15px;
+    font-family: var(--body-text);
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.about-img-div{
+    margin-bottom: 50px;
+}
+
+.about-img{
+    width: 600px;
+    height: 500px;
+    margin-bottom: 200px;
+    margin-top: 210px;
+    border: 1px solid #F7CB73;
+}
+
+
+/* ---------------------------------------
+service page style */
+
+.service-card-list{
+    margin: 50px 60px 50px 70px;
+    text-align: center;
+    padding: 30px;
+    font-family: var(--body-text);
+    line-height: 2;
+
+}
+
+.service-card{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    background-color: var(--card-color);
+    padding: 35px;
+    margin: 20px 30px;
+    border: 1px solid #0037ffa1;
+    border-radius: 7px;
+}
+
+.service-card:hover{
+    box-shadow: 5px 5px 2px 1px #dddddd;
+    border-width: 2px;
+}
+
+.card-title{
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-size: 2rem;
+    margin: 3px;
+    font-weight: 600;
+
+}
+
+.card-subtitle{
+    font-family: var(--title-text);
+    color: #2f00ffda;
+    font-size: 1.7rem;
+    margin: 7px 3px;
+    font-weight: 600;
+}
+
+.money{
+    font-family: var(--title-text);
+    font-size: 1.1rem;
+    color: #2f00ffda;
+    font-weight: bold;
+    margin: 3px 3px 15px;
+    font-weight: 600;
+}
+
+.service-title, .service-subtitle{
+    text-align: center;
+    line-height: 2;
+    font-weight: 600;
+}
+.service-title{
+    margin: 70px 0 0;
+    font-family: var(--title-text);
+    font-size: 3rem;
+    color: var(--title-text-color);
+}
+
+.service-subtitle{
+    margin: 0 0 10px;
+    color: #5a5a5ada;
+    font-family: var(--body-text);
+    font-size: 1.1rem;
+}
+
+.feature-list li{
+    list-style-type: none;
+    margin-left: 2px;
+    color: #2f00ff;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.fa-circle-check{
+    margin-right: 10px;
+    color: #2f00ffda;
+}
+
+
+.feature-list{
+    margin: 20px 0;
+}
+
+.sign-up-btn{
+    margin: 15px 5px;
+    text-decoration: none;
+    background-color: #370bfada;
+    color: white;
+    padding: 10px;
+    border: 1px solid #fedf9f66;
+    border-radius: 7px;
+    font-family: var(--body-text);
+}
+
+.sign-up-btn:hover{
+    background-color: rgb(29, 29, 29);
+    color: rgb(28, 255, 153);
+}
+
+/* ---------------------------------------------------------- */
+
+
+/* contact us page style */
+.contact-title, .contact-subtitle{
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 3rem;
+    margin: 60px auto 10px;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+
+}
+
+.contact-subtitle{
+    color: var(--body-text-color);
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.contact-body{
+    margin: 30px;
+    padding: 20px;
+}
+
+.left-section{
+    display: inline-block;
+    width: 45vw;
+}
+
+.right-section{
+    display: inline-block;
+    width: 40vw;
+    margin: 20px 0 0 40px;
+    
+}
+.contact-username, .contact-email, .contact-address, .contact-message{
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffae00;
+    background-color: #F6F3ED;
+    font-weight: 100;
+    font-weight: 200;
+
+}
+
+.contact-username::placeholder, .contact-email::placeholder, .contact-address::placeholder, .contact-message::placeholder
+{
+    font-size: 1rem;
+    color: rgb(38, 38, 38);
+    font-family: var(--body-text);
+    padding: 7px 7px 7px 0;
+}
+
+.contact-username:hover, .contact-email:hover, .contact-address:hover, .contact-message:hover{
+    border-bottom: 2px solid #59c8ff;
+}
+
+
+.contact-message{
+    height: 90px;
+}
+.contact-form{
+    margin: 45px 0 0 20px;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.contact-form-title{
+    color: rgb(3, 148, 221);
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.left-section-title{
+    font-size: 3.5rem;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    margin: 0 0 30px;
+    font-weight: 600;
+
+}
+
+.left-section-body{
+    font-size: 1.1rem;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 0 0 50px 0;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300;
+} 
+
+.contact-submit-btn{
+    border-radius: 7px;
+    background-color: rgb(28, 255, 153);
+    font-family: var(--body-text);
+    font-size: 1.1rem;
+    color: var(--title-text-color);
+    padding: 10px;
+    border: none;
+}
+
+.contact-submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(28, 255, 153);
+}
+
+.phone-number, .address{
+    margin: 25px 0;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.address{
+    margin-left: 8px;
+}
+
+.contact-icon{
+    color: rgb(98, 0, 255);
+    margin-right: 20px;
+
+}
+
+.address span{
+    margin-left: 35px;
+}
+
+
+/* -------------------------------------------------------- */
+
+/* login page style */
+
+.login-div{
+    margin: 60px auto;
+    background-color: var(--card-color);
+    border-radius: 7px;
+    width: 80vw;
+    height: 68vh;
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
+}
+
+.login-div .left-section{
+    display: inline-block;
+    width: 33vw;
+    margin: 27px 20px 20px;
+    padding: 28px 35px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    background-color: var(--card-color);
+    border-radius: 8px;
+}
+
+.left-section .login-title{
+    margin: 0;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+.left-section .login-subtitle{
+    font-family: var(--body-text);
+    font-weight: 300;
+    color: var(--body-text-color);
+}
+
+.login-user-email-input, .login-user-password-input, .login-btn{
+    display: block;
+    margin: 20px;
+}
+.login-user-email-input, .login-user-password-input{
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    background-color: var(--card-color);
+    width: 60%;
+    height: 40px;
+}
+.login-user-email-input:hover, .login-user-password-input:hover{
+    border-bottom: 1px solid rgb(255, 174, 0);
+}
+.login-user-email-input::placeholder, .login-user-password-input::placeholder{
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.login-div .right-section{
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin: 20px 40px 0 0;
+}
+
+.login-div .right-section .login-img{
+    width: 500px;
+    height: 450px;
+    margin: 0;
+}
+
+.forgot-pass{
+    text-decoration: none;
+    position: relative;
+    right: 80px;
+    font-family: var(--body-text);
+    color: blue;
+    font-weight: 300;
+    display: inline;
+    margin: 20px;
+}
+
+.forgot-pass:hover{
+    color: green;
+}
+
+.login-btn{
+    font-family: var(--body-text);
+    font-weight: 700;
+    background-color: rgb(28, 255, 153);
+    color: var(--title-text-color);
+    width: 80px;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    left: 170px;
+    border: 1px solid var(--body-text-color);
+}
+
+.login-btn:hover{
+    background-color: rgb(32, 32, 32);
+    color: rgb(28, 255, 153);
+}
+.other-login-txt{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-weight: 900;
+}
+
+.google-login-option{
+    text-decoration: none;
+    font-family: var(--title-text);
+    font-weight: 400;
+    background-color: #f0190e;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+}
+
+.google-icon{
+    margin: 8px;
+    color: white;
+}
+
+.google-login-option:hover{
+    background-color: rgb(34, 34, 34);
+    color: rgb(28, 255, 153);
+}
+
+
+/* ------------------------------------------------------------- */
+
+/* forgot password page style */
+
+.forgot-pass-div{
+    margin: 120px auto;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 60px;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 7px;
+    border: 2px solid #E6E6E6;
+    line-height: 1.2;
+}
+
+.forgot-pass-description{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 30px auto;
+    font-size: 0.9rem;
+}
+.forgot-pass-email-input{
+    margin: 5px auto 15px;
+    width: 40%;
+    height: 40px;
+    background-color: var(--card-color);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffa702;
+}
+
+.forgot-pass-email-input:hover{
+    border-bottom: 2px solid #ffc251;
+}
+
+.forgot-pass-email-input::placeholder{
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+}
+
+.forgot-pass-conbinue-btn{
+    display: block;
+    background-color: rgb(28, 255, 153);
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    font-family: var(--title-text);
+    padding: 8px;
+    width: 15%;
+    border-radius: 7px;
+    margin: 10px 0;
+    position: relative;
+    left: 300px;
+}
+
+.forgot-pass-conbinue-btn:hover{
+    color: rgb(28, 255, 153);
+    background-color: rgb(38, 38, 38);
+}
+
+.forgot-pass-div .other-login-txt{
+    font-weight: 400;
+}
+
+.forgot-signup{
+    text-decoration: none;
+    font-family: var(--title-text);
+    font-weight: 400;
+    background-color: #22daff;
+    color: rgb(38, 38, 38);
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+}
+
+.forgot-signup:hover{
+    color: #22daff;
+    background-color: rgb(38, 38, 38);
+}
