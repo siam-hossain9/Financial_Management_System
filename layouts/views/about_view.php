@@ -3,6 +3,7 @@
 <title>About Us</title>
 
 <?php include "./header.php" ?>
+<link rel="stylesheet" href="../css/about_view.css">
 
 
 <h1 class="about-title">About Us</h1>
@@ -29,11 +30,7 @@ At the end of the day, it’s about trust, consistency, and results. We work wit
 
 
 
-<!-- animation on scroll js  -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+
 
     <?php include "./footer.php" ?>
 </body>

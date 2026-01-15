@@ -3,6 +3,7 @@
 <title>Contact Us</title>
 
 <?php include "./header.php" ?>
+<link rel="stylesheet" href="../css/contact_view.css">
 
 <!-- contact us page -->
 
@@ -48,11 +49,7 @@
     </div>
 </div>
 
-<!-- animation on scroll js  -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+
 
 <?php include "./footer.php" ?>
 </body>

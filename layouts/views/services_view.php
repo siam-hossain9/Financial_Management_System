@@ -6,6 +6,7 @@
 <html lang="en">
     <title>Our Services</title>
     <?php include "./header.php" ?>
+    <link rel="stylesheet" href="../css/services_view.css">
 
     <h1 class="service-title" data-aos="fade-up" data-aos-duration="1000">Our Services & Pricing</h1>
     <h3 class="service-subtitle" data-aos="fade-down" data-aos-duration="1000">
@@ -20,11 +21,7 @@
 
 
 
-<!-- animation on scroll js  -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+
 
     <?php include "./footer.php" ?>
 </body>
