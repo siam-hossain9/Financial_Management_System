@@ -30,11 +30,7 @@ At the end of the day, it’s about trust, consistency, and results. We work wit
 
 
 
-<!-- animation on scroll js  -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+
 
     <?php include "./footer.php" ?>
 </body>
