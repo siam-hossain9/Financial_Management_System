@@ -3,6 +3,7 @@
 
 <title>Log In</title>
 <?php include "./header.php"; ?>
+<link rel="stylesheet" href="../css/login_view.css">
 
 
 <div class="login-div" data-aos="fade-up" data-aos-duration="1000">

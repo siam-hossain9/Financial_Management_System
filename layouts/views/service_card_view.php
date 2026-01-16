@@ -1,4 +1,5 @@
 <?php include "../controllers/service_card_controller_layout.php"; ?>
+<link rel="stylesheet" href="../css/services_view.css">
 
 <body>
     <?php 

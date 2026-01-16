@@ -1,0 +1,74 @@
+/* navbar and logo styles */
+
+.navbar {
+    background-color: var(--nav-bg-color);
+
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: right;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-menu {
+    display: inline;
+    margin: 30px;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+/* navbar sign up button */
+
+.signup {
+    background-color: #F7CB73;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.signup .sign-up-menu:hover,
+.signup:hover {
+    background-color: rgb(21, 21, 21);
+    color: rgb(28, 255, 153);
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: rgb(58, 58, 252);
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 15px;
+    padding: 8px;
+    display: inline;
+    background-color: var(--nav-bg-color);
+}
+
+
+.nav-menu-div {
+    background-color: var(--nav-bg-color);
+    padding: 15px;
+}
+
+.menu-link:hover {
+    color: black;
+    border-bottom: 2px solid #0C0CF5;
+}

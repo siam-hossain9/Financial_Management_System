@@ -4,6 +4,7 @@
 <!-- upper section -->
 <div class="upper-section">
     <?php include "./header.php"; ?>
+    <link rel="stylesheet" href="../css/home_view.css">
 
     <div class="left-upper-section" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         

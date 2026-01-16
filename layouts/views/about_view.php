@@ -3,6 +3,7 @@
 <title>About Us</title>
 
 <?php include "./header.php" ?>
+<link rel="stylesheet" href="../css/about_view.css">
 
 
 <h1 class="about-title">About Us</h1>

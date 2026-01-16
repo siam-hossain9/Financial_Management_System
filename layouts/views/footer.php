@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../css/footer.css">
 
 <footer data-aos="fade-up" data-aos-duration="1000">
     <div class="footer-body">

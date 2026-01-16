@@ -3,6 +3,7 @@
 <title>Contact Us</title>
 
 <?php include "./header.php" ?>
+<link rel="stylesheet" href="../css/contact_view.css">
 
 <!-- contact us page -->
 
