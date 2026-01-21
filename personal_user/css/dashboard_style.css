@@ -1,0 +1,306 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: var(--card-color);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid lightseagreen;
+    color: #151515;
+}
+
+.nav-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+}
+
+.nav-menu {
+    margin: 27px 0;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 40px;
+    padding: 8px;
+    display: inline;
+    position: relative;
+    top: 30px;
+    background-color: var(--nav-bg-color);
+}
+
+.nav-menu-div {
+    padding: 30 30px 30px 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid darkslategray;
+}
+
+.log-out {
+    position: relative;
+    top: 220px;
+    left: 10px;
+}
+
+
+
+.dashboard-body {
+    display: inline-block;
+    width: 80vw;
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+}
+
+.dashboard-title,
+.user-name {
+    margin: 15px;
+}
+
+.dashboard-title {
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.user-name {
+    font-family: var(--body-text);
+    color: var(--nav-text-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+
+
+.recent-expense {
+    margin-left: 15px;
+    display: inline-block;
+    width: 20vw;
+    height: 80vh;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.balance-amount {
+    font-family: var(--body-text);
+    color: var(--title-text);
+}
+
+.current-balace-div {
+    background-color: var(--card-color);
+    padding: 10px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.current-balance-title {
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.recent-expense-title {
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 400;
+}
+
+.date {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+}
+
+.recent-expense-list {
+    margin-left: 15px;
+    text-align: center;
+}
+
+
+
+.expense-cart-div {
+    background-color: #F7D16A;
+    border-radius: 7px;
+    margin: 15px 10px;
+    position: relative;
+    right: 10px;
+    text-align: left;
+    padding: 16px 16px 16px 5px;
+}
+
+.expense-title,
+.expense-money,
+.time {
+    margin: 0;
+}
+
+.expense-money,
+.time {
+    display: inline-block;
+    margin-left: 36px;
+    font-family: var(--body-text);
+    color: #535353;
+    font-weight: 500;
+}
+
+.expense-title {
+    font-size: 1rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+.expense-icon {
+    margin-right: 10px;
+    color: #383838;
+    margin-left: 10px;
+}
+
+.sell-all-expense-btn {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    margin: 10px auto;
+}
+
+.sell-all-expense-btn:hover {
+    color: darkcyan;
+}
+
+
+
+.upper-section {
+    display: inline-block;
+    background-color: var(--card-color);
+    width: 40vw;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    border-radius: 7px;
+    border: 1px solid #383838;
+}
+
+.savings-div,
+.expense-div {
+    display: inline-block;
+    margin: 10px 50px;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.savings-div {
+    background-color: aqua;
+}
+
+.expense-div {
+    background-color: sandybrown;
+}
+
+.weekly-summary-title {
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.weekly-date,
+.weekly-saving-money,
+.weekly-expense-money {
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    margin: 10px;
+    font-weight: 300;
+}
+
+
+
+.lower-section {
+    background-color: white;
+    display: block;
+    margin: 23px;
+    position: absolute;
+    top: 250px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+    width: 75vw;
+    padding: 30px;
+    min-height: 500px;
+}
+
+.lower-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#financeChart {
+    min-height: 450px;
+    max-height: 500px;
+    width: 100%;
+}

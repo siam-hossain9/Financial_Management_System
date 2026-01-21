@@ -1,0 +1,104 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+
+
+.service-card-list {
+    margin: 50px 60px 50px 70px;
+    text-align: center;
+    padding: 30px;
+    font-family: var(--body-text);
+    line-height: 2;
+
+}
+
+.service-card {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    background-color: var(--card-color);
+    padding: 35px;
+    margin: 20px 30px;
+    border: 1px solid #0037ffa1;
+    border-radius: 7px;
+}
+
+.service-card:hover {
+    box-shadow: 5px 5px 2px 1px #dddddd;
+    border-width: 2px;
+}
+
+.card-title {
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-size: 2rem;
+    margin: 3px;
+    font-weight: 600;
+
+}
+
+.card-subtitle {
+    font-family: var(--title-text);
+    color: #2f00ffda;
+    font-size: 1.7rem;
+    margin: 7px 3px;
+    font-weight: 600;
+}
+
+.money {
+    font-family: var(--title-text);
+    font-size: 1.1rem;
+    color: #2f00ffda;
+    font-weight: bold;
+    margin: 3px 3px 15px;
+    font-weight: 600;
+}
+
+.feature-list li {
+    list-style-type: none;
+    margin-left: 2px;
+    color: #2f00ff;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.fa-circle-check {
+    margin-right: 10px;
+    color: #2f00ffda;
+}
+
+
+.feature-list {
+    margin: 20px 0;
+}
+
+.sign-up-btn {
+    margin: 15px 5px;
+    text-decoration: none;
+    background-color: #370bfada;
+    color: white;
+    padding: 10px;
+    border: 1px solid #fedf9f66;
+    border-radius: 7px;
+    font-family: var(--body-text);
+}
+
+.sign-up-btn:hover {
+    background-color: black;
+    color: mediumspringgreen;
+}

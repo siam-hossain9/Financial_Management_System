@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION["userid"]);
+unset($_SESSION["username"]);
+unset($_SESSION["useremail"]);
+session_destroy();
+header("Location:../../layouts/views/login_view.php");
+exit();
+?>

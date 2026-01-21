@@ -1,0 +1,97 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: var(--nav-bg-color);
+
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: right;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-menu {
+    display: inline;
+    margin: 30px;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+
+
+.signup {
+    background-color: #F7CB73;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.signup .sign-up-menu:hover,
+.signup:hover {
+    background-color: black;
+    color: mediumspringgreen;
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 15px;
+    padding: 8px;
+    display: inline;
+    background-color: var(--nav-bg-color);
+}
+
+
+.nav-menu-div {
+    background-color: var(--nav-bg-color);
+    padding: 15px;
+}
+
+.menu-link:hover {
+    color: black;
+    border-bottom: 2px solid #0C0CF5;
+}

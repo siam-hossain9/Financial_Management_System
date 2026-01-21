@@ -1,0 +1,121 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --title-text: "Poppins", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 15px;
+    padding: 8px;
+    display: inline;
+}
+
+
+
+.forgot-pass-div {
+    margin: 120px auto;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 60px;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 7px;
+    border: 2px solid #E6E6E6;
+    line-height: 1.2;
+}
+
+.forgot-pass-description {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 30px auto;
+    font-size: 0.9rem;
+}
+
+.forgot-pass-email-input {
+    margin: 5px auto 15px;
+    width: 40%;
+    height: 40px;
+    background-color: var(--card-color);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffa702;
+}
+
+.forgot-pass-email-input:hover {
+    border-bottom: 2px solid #ffc251;
+}
+
+.forgot-pass-email-input::placeholder {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+}
+
+.forgot-pass-conbinue-btn {
+    display: block;
+    background-color: mediumspringgreen;
+    color: darkslategray;
+    text-decoration: none;
+    font-family: var(--title-text);
+    padding: 8px;
+    width: 15%;
+    border-radius: 7px;
+    margin: 10px 0;
+    position: relative;
+    left: 300px;
+}
+
+.forgot-pass-conbinue-btn:hover {
+    color: mediumspringgreen;
+    background-color: darkslategray;
+}
+
+.forgot-pass-div .other-login-txt {
+    font-weight: 400;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+}
+
+.forgot-signup {
+    text-decoration: none;
+    font-family: var(--title-text);
+    font-weight: 400;
+    background-color: #22daff;
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+}
+
+.forgot-signup:hover {
+    color: #22daff;
+    background-color: darkslategray;
+}

@@ -1,0 +1,203 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --title-text: "Poppins", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.login-div {
+    margin: 60px auto;
+    background-color: var(--card-color);
+    border-radius: 7px;
+    width: 80vw;
+    min-height: 80vh;
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
+}
+
+.login-div .left-section {
+    display: inline-block;
+    width: 33vw;
+    margin: 27px 20px 20px;
+    padding: 28px 35px 50px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    background-color: var(--card-color);
+    border-radius: 8px;
+}
+
+.left-section .login-title {
+    margin: 0;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+.left-section .login-subtitle {
+    font-family: var(--body-text);
+    font-weight: 300;
+    color: var(--body-text-color);
+}
+
+.login-user-email-input,
+.login-user-password-input,
+.login-btn {
+    display: block;
+    margin: 20px;
+}
+
+.login-user-email-input,
+.login-user-password-input {
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    background-color: var(--card-color);
+    width: 60%;
+    height: 40px;
+}
+
+.login-user-email-input:hover,
+.login-user-password-input:hover {
+    border-bottom: 1px solid orange;
+}
+
+.login-user-email-input::placeholder,
+.login-user-password-input::placeholder {
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+
+.user-type-container {
+    width: 100%;
+    margin: 20px 0;
+    clear: both;
+}
+
+.user-type-container label {
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 0.95rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user-type-container .business_type {
+    margin: 0 auto;
+    border: 1px solid blue;
+    outline: none;
+    background-color: var(--card-color);
+    width: 62%;
+    height: 40px;
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.user-type-container .business_type:hover {
+    border: 1px solid orange;
+}
+
+.user-type-container .business_type:focus {
+    border: 2px solid mediumspringgreen;
+}
+
+.login-div .right-section {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin: 20px 40px 0 0;
+}
+
+.login-div .right-section .login-img {
+    width: 500px;
+    height: 450px;
+    margin: 0;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    font-family: var(--body-text);
+    color: blue;
+    font-weight: 300;
+    display: block;
+    margin: 25px auto 10px;
+    text-align: right;
+    width: 60%;
+    clear: both;
+}
+
+.forgot-pass:hover {
+    color: green;
+}
+
+.login-btn {
+    font-family: var(--body-text);
+    font-weight: 700;
+    background-color: mediumspringgreen;
+    color: var(--title-text-color);
+    width: 80px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 25px auto;
+    border: 1px solid var(--body-text-color);
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: black;
+    color: mediumspringgreen;
+}
+
+.other-login-txt {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.google-login-option {
+    text-decoration: none;
+    font-family: var(--title-text);
+    font-weight: 400;
+    background-color: #f0190e;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+
+.google-icon {
+    margin: 8px;
+    color: white;
+}
+
+.google-login-option:hover {
+    background-color: black;
+    color: mediumspringgreen;
+}

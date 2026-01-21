@@ -1,0 +1,327 @@
+/* variable declaration */
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+/* navbar and logo styles */
+
+.navbar {
+    background-color: var(--card-color);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid lightseagreen;
+    color: #151515;
+}
+
+.nav-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+}
+
+.nav-menu {
+    margin: 27px 0;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 40px;
+    padding: 8px;
+    display: inline;
+    position: relative;
+    top: 30px;
+    background-color: var(--nav-bg-color);
+}
+
+.nav-menu-div {
+    padding: 30 30px 30px 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid darkslategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.log-out {
+    position: relative;
+    top: 220px;
+    left: 10px;
+}
+
+/* savings page style */
+
+.savings-body {
+    width: 80vw;
+    margin-left: 16vw;
+    padding: 20px 0;
+    font-size: 0;
+}
+
+.savings-title {
+    margin: 15px;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 2rem;
+}
+
+.user-name {
+    font-family: var(--body-text);
+    color: var(--nav-text-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.add-savings-div {
+    margin-left: 15px;
+    display: inline-block;
+    width: 280px;
+    min-height: 80vh;
+    border: 1px solid #383838;
+    border-radius: 7px;
+    vertical-align: top;
+    font-size: 1rem;
+}
+
+.current-balace-div {
+    background-color: var(--card-color);
+    padding: 10px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.current-balance-title {
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.balance-amount {
+    font-family: var(--body-text);
+    color: var(--title-text);
+}
+
+.add-savings-title {
+    font-family: var(--title-text);
+    font-weight: 400;
+    color: var(--title-text-color);
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.add-savings {
+    margin: 20px;
+}
+
+.savings-name-input,
+.savings-amount-input,
+.savings-type {
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid royalblue;
+}
+
+.savings-amount-input {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.savings-name-input::placeholder,
+.savings-amount-input::placeholder {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+}
+
+label {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+    margin: 0 11px 0;
+}
+
+.add-savings-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00ffd5;
+    padding: 10px;
+    color: #151515;
+    font-family: var(--title-text);
+    font-weight: 500;
+    border-radius: 6px;
+    width: 200px;
+    font-size: 1rem;
+    position: relative;
+    left: 3px;
+    top: 30px;
+}
+
+.add-savings-btn:hover {
+    background-color: #151515;
+    color: #00ffd5;
+}
+
+.savings-name-input:hover,
+.savings-amount-input:hover,
+.savings-type:hover {
+    border-color: #EC662B;
+}
+
+
+
+.savings-history-title {
+    font-family: var(--title-text);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--title-text-color);
+    margin-top: 15px;
+}
+
+.savings-history-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    border-radius: 7px;
+    border: 1px solid #383838;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.savings-history-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+
+
+.history-card-div {
+    background-color: #F7D16A;
+    border-radius: 7px;
+    margin: 15px 10px;
+    position: relative;
+    right: 20px;
+    text-align: left;
+    padding: 16px 16px 16px 15px;
+}
+
+.history-title,
+.history-money,
+.time {
+    margin: 0;
+}
+
+.history-money,
+.time {
+    display: inline-block;
+    margin-left: 36px;
+    font-family: var(--body-text);
+    color: #535353;
+    font-weight: 500;
+}
+
+.history-icon {
+    margin-right: 10px;
+    color: #383838;
+    margin-left: 10px;
+}
+
+.history-title {
+    font-size: 1rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+.history-delete,
+.history-edit {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+}
+
+.history-delete:hover {
+    color: red;
+}
+
+.history-edit:hover {
+    color: green;
+}
+
+.error-message {
+    color: red;
+    margin: 10px 10px;
+    font-family: var(--body-text);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.getid {
+    display: none;
+}
