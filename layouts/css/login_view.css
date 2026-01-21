@@ -1,0 +1,141 @@
+/* login page style */
+
+.login-div {
+    margin: 60px auto;
+    background-color: var(--card-color);
+    border-radius: 7px;
+    width: 80vw;
+    height: 68vh;
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
+}
+
+.login-div .left-section {
+    display: inline-block;
+    width: 33vw;
+    margin: 27px 20px 20px;
+    padding: 28px 35px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    background-color: var(--card-color);
+    border-radius: 8px;
+}
+
+.left-section .login-title {
+    margin: 0;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+}
+
+.left-section .login-subtitle {
+    font-family: var(--body-text);
+    font-weight: 300;
+    color: var(--body-text-color);
+}
+
+.login-user-email-input,
+.login-user-password-input,
+.login-btn {
+    display: block;
+    margin: 20px;
+}
+
+.login-user-email-input,
+.login-user-password-input {
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    background-color: var(--card-color);
+    width: 60%;
+    height: 40px;
+}
+
+.login-user-email-input:hover,
+.login-user-password-input:hover {
+    border-bottom: 1px solid rgb(255, 174, 0);
+}
+
+.login-user-email-input::placeholder,
+.login-user-password-input::placeholder {
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.login-div .right-section {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    margin: 20px 40px 0 0;
+}
+
+.login-div .right-section .login-img {
+    width: 500px;
+    height: 450px;
+    margin: 0;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    position: relative;
+    right: 80px;
+    font-family: var(--body-text);
+    color: blue;
+    font-weight: 300;
+    display: inline;
+    margin: 20px;
+}
+
+.forgot-pass:hover {
+    color: green;
+}
+
+.login-btn {
+    font-family: var(--body-text);
+    font-weight: 700;
+    background-color: rgb(28, 255, 153);
+    color: var(--title-text-color);
+    width: 80px;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    left: 170px;
+    border: 1px solid var(--body-text-color);
+}
+
+.login-btn:hover {
+    background-color: rgb(32, 32, 32);
+    color: rgb(28, 255, 153);
+}
+
+.other-login-txt {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-weight: 900;
+}
+
+.google-login-option {
+    text-decoration: none;
+    font-family: var(--title-text);
+    font-weight: 400;
+    background-color: #f0190e;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+}
+
+.google-icon {
+    margin: 8px;
+    color: white;
+}
+
+.google-login-option:hover {
+    background-color: rgb(34, 34, 34);
+    color: rgb(28, 255, 153);
+}

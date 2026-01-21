@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 
 <link rel="stylesheet" href="../css/footer_style.css">
+=======
+<link rel="stylesheet" href="../css/footer.css">
+
+>>>>>>> 7568425b5a30e4c60dc54ef09676747b593cc6a8
 <footer data-aos="fade-up" data-aos-duration="1000">
     <div class="footer-body">
         <div class="section-1">
             <a href="./home_view.php" class="logo"><span class="logo-img">F</span>inTech</a>
+<<<<<<< HEAD
             <p class="footer-address">Uttara <br> Dhaka, Bangladesh</p>
+=======
+            <p class="footer-address">123 Main <br> Street <br> Anytown, USA</p>
+>>>>>>> 7568425b5a30e4c60dc54ef09676747b593cc6a8
         </div>
 
         <div class="section-2">

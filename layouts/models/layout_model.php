@@ -1,12 +1,17 @@
 <?php
 
     class Model {
+<<<<<<< HEAD
 
+=======
+        // connection open
+>>>>>>> 7568425b5a30e4c60dc54ef09676747b593cc6a8
         function OpenCon(){
             $conn = new mysqli("localhost", "root", "", "financialmanagementsystem");
             return $conn;
         }
 
+<<<<<<< HEAD
         function CloseCon($conn){
             $conn->close();
         }
@@ -61,3 +66,16 @@
     }
 
 ?>
+=======
+        // function for queries
+        function get_user_type($conn, $table){
+            $sql = "SELECT u_id, usertype, money FROM $table";
+            $result = $conn->query($sql);
+            return $result; 
+        }
+    }
+
+
+
+?>
+>>>>>>> 7568425b5a30e4c60dc54ef09676747b593cc6a8
