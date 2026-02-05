@@ -1,0 +1,165 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --title-text: "Poppins", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.contact-title,
+.contact-subtitle {
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 3rem;
+    margin: 60px auto 10px;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+}
+
+.contact-subtitle {
+    color: var(--body-text-color);
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.contact-body {
+    margin: 30px;
+    padding: 20px;
+}
+
+.left-section {
+    display: inline-block;
+    width: 45vw;
+}
+
+.right-section {
+    display: inline-block;
+    width: 40vw;
+    margin: 20px 0 0 40px;
+}
+
+.contact-username,
+.contact-email,
+.contact-address,
+.contact-message {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffae00;
+    background-color: #F6F3ED;
+    font-weight: 200;
+}
+
+.contact-username::placeholder,
+.contact-email::placeholder,
+.contact-address::placeholder,
+.contact-message::placeholder {
+    font-size: 1rem;
+    color: darkslategray;
+    font-family: var(--body-text);
+    padding: 7px 7px 7px 0;
+}
+
+.contact-username:hover,
+.contact-email:hover,
+.contact-address:hover,
+.contact-message:hover {
+    border-bottom: 2px solid #59c8ff;
+}
+
+.contact-message {
+    height: 90px;
+}
+
+.contact-form {
+    margin: 45px 0 0 20px;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.contact-form-title {
+    color: dodgerblue;
+    font-family: var(--body-text);
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.left-section-title {
+    font-size: 3.5rem;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    margin: 0 0 30px;
+    font-weight: 600;
+}
+
+.left-section-body {
+    font-size: 1.1rem;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    margin: 0 0 50px 0;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300;
+}
+
+.contact-submit-btn {
+    border-radius: 7px;
+    background-color: mediumspringgreen;
+    font-family: var(--body-text);
+    font-size: 1.1rem;
+    color: var(--title-text-color);
+    padding: 10px;
+    border: none;
+}
+
+.contact-submit-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: mediumspringgreen;
+}
+
+.phone-number,
+.address {
+    margin: 25px 0;
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.address {
+    margin-left: 8px;
+}
+
+.contact-icon {
+    color: blueviolet;
+    margin-right: 20px;
+}
+
+.address span {
+    margin-left: 35px;
+}

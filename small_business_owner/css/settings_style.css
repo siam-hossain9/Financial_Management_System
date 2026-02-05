@@ -1,0 +1,181 @@
+
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: var(--card-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid darkslategray;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid lightseagreen;
+    color: #151515;
+}
+
+.nav-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+    padding: 0;
+}
+
+.nav-menu {
+    margin: 27px 0;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 40px;
+    padding: 8px;
+    display: inline;
+    position: relative;
+    top: 30px;
+    background-color: var(--nav-bg-color);
+}
+
+.nav-menu-div {
+    padding: 30px 30px 30px 20px;
+}
+
+.log-out {
+    position: relative;
+    top: 220px;
+    left: 10px;
+}
+
+
+
+.settings-body {
+    margin-left: 16vw;
+    padding: 20px;
+}
+
+.settings-title {
+    margin: 15px 0 5px 0;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.user-name {
+    font-family: var(--body-text);
+    color: var(--nav-text-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 0 40px 0;
+}
+
+.account-info-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    padding: 30px;
+    max-width: 700px;
+    box-shadow: none;
+}
+
+.account-info-title {
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.info-item {
+    display: block;
+    padding: 8px 0;
+}
+
+.info-label {
+    font-family: var(--title-text);
+    font-weight: 700;
+    color: #000;
+    font-size: 0.95rem;
+    display: inline;
+}
+
+.info-value {
+    font-family: var(--body-text);
+    color: #000;
+    font-size: 0.95rem;
+    display: inline;
+    margin-left: 5px;
+}
+
+.info-divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 25px 0;
+}
+
+.coming-soon-text {
+    font-family: var(--body-text);
+    color: #888;
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: left;
+}

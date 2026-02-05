@@ -1,0 +1,360 @@
+/* variable declaration */
+
+:root {
+    --nav-text-color: #505050;
+    --background-color: #fff;
+    --main-bg-color: #FFFFFF;
+    --title-text: "Poppins", sans-serif;
+    --nav-menu-text: "Inter", sans-serif;
+    --body-text: "DM Sans", sans-serif;
+    --body-text-color: #7f7e7e;
+    --rabing-color: #ED7239;
+    --btn-color: #EB662B;
+    --nav-bg-color: #FBE6BE;
+    --footer-bg-color: #383838;
+    --title-text-color: darkslategray;
+    --card-color: #F5F3EE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: var(--card-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 15vw;
+    height: 100vh;
+    border: 1px solid darkslategray;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--nav-text-color);
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid lightseagreen;
+    color: #151515;
+}
+
+.nav-icon {
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-menu-list {
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--nav-menu-text);
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+    padding: 0;
+}
+
+.nav-menu {
+    margin: 27px 0;
+    font-family: var(--nav-menu-text);
+    font-size: 1rem;
+}
+
+.logo-img {
+    background-color: #EC662B;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.logo {
+    color: royalblue;
+    font-family: var(--title-text);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: none;
+    margin: 40px;
+    padding: 8px;
+    display: inline;
+    position: relative;
+    top: 30px;
+    background-color: var(--nav-bg-color);
+}
+
+.nav-menu-div {
+    padding: 30px 30px 30px 20px;
+}
+
+.log-out {
+    position: relative;
+    top: 220px;
+    left: 10px;
+}
+
+
+
+.savings-body {
+    margin-left: 16vw;
+    padding: 20px;
+}
+
+.savings-title {
+    margin: 15px 0;
+    font-family: var(--title-text);
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.user-name {
+    font-family: var(--body-text);
+    color: var(--nav-text-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0 0 30px 0;
+}
+
+.page-content-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.add-savings-div {
+    flex: 0 0 450px;
+    min-height: 80vh;
+    border: 1px solid #383838;
+    border-radius: 7px;
+}
+
+.savings-history-div {
+    flex: 1;
+    min-height: 80vh;
+    border-radius: 7px;
+    border: 1px solid #383838;
+    padding: 20px;
+}
+
+.current-balace-div {
+    background-color: var(--card-color);
+    padding: 15px;
+    border: 1px solid #383838;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.current-balance-title {
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+    margin: 0 0 10px 0;
+}
+
+.balance-amount {
+    font-family: var(--body-text);
+    color: var(--title-text);
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.add-savings-title {
+    font-family: var(--title-text);
+    font-weight: 400;
+    color: var(--title-text-color);
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+.add-savings {
+    padding: 20px;
+}
+
+.add-savings-form {
+    width: 100%;
+}
+
+.savings-name-input,
+.savings-amount-input,
+.savings-type {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid royalblue;
+    background: transparent;
+    font-family: var(--body-text);
+}
+
+.savings-amount-input {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.savings-name-input::placeholder,
+.savings-amount-input::placeholder {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+}
+
+label {
+    font-family: var(--body-text);
+    color: var(--body-text-color);
+    font-size: 1rem;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.add-savings-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00ffd5;
+    padding: 12px;
+    color: #151515;
+    font-family: var(--title-text);
+    font-weight: 500;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.add-savings-btn:hover {
+    background-color: #151515;
+    color: #00ffd5;
+}
+
+.savings-name-input:hover,
+.savings-amount-input:hover,
+.savings-type:hover {
+    border-color: #EC662B;
+}
+
+.savings-name-input:focus,
+.savings-amount-input:focus,
+.savings-type:focus {
+    border-color: #00ffd5;
+}
+
+
+
+.savings-history-title {
+    font-family: var(--title-text);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--title-text-color);
+    margin: 0 0 20px 0;
+}
+
+.savings-history-list {
+    overflow-y: auto;
+    max-height: calc(80vh - 150px);
+}
+
+
+.savings-history-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.savings-history-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.savings-history-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.savings-history-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+.history-card-div {
+    background-color: #F7D16A;
+    border-radius: 7px;
+    margin: 0 0 15px 0;
+    text-align: left;
+    padding: 16px;
+}
+
+.history-title,
+.history-money,
+.time {
+    margin: 5px 0;
+}
+
+.history-money,
+.time {
+    display: inline-block;
+    margin-left: 36px;
+    font-family: var(--body-text);
+    color: #535353;
+    font-weight: 500;
+}
+
+.history-icon {
+    margin-right: 10px;
+    color: #383838;
+}
+
+.history-title {
+    font-size: 1rem;
+    font-family: var(--title-text);
+    font-weight: 600;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+}
+
+.history-delete,
+.history-edit {
+    margin: 10px 10px 0 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: var(--body-text);
+    color: var(--title-text-color);
+    display: inline-block;
+}
+
+.history-delete:hover {
+    color: red;
+}
+
+.history-edit:hover {
+    color: green;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin: 5px 0;
+    font-style: italic;
+    font-family: var(--body-text);
+}
+
+.getid {
+    display: none;
+}
