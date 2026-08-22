@@ -179,9 +179,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`u_id`, `user_name`, `email`, `password`, `user_type`, `money`) VALUES
-(1, 'PersonalUser', 'personal@test.com', 'pass123', 'Personal User', 0.00),
-(2, 'BusinessOwner', 'business@test.com', 'pass123', 'Small Business Owner', 0.00),
-(3, 'siam', 'syam@gmail.com', 'Siam123456', 'Personal User', 0.00),
+-- Demo seed accounts. Passwords are bcrypt hashes of 'demo1234'.
+-- Never store plaintext passwords in a seed file.
+(1, 'PersonalUser', 'personal@example.test', '$2y$10$8YHjoUDblzNmSTpbXL4D8uEndbVyMw6hOMLb1lY7rFba/44s7uKES', 'Personal User', 0.00),
+(2, 'BusinessOwner', 'business@example.test', '$2y$10$Nub0hB.7xYTo9CmdmV33Ee79WN7VcoKi8K7dCp5RtNPdVvIsO8AS.', 'Small Business Owner', 0.00),
+(3, 'demouser', 'demo@example.test', '$2y$10$LnY53vyUCnX6GS4pteUAhOd/iFQ8fU3gJSeqqC55oev2Fc5ok5Qt2', 'Personal User', 0.00),
 (4, 'abir', 'abir@gmail.com', '$2y$10$d4FRk5tOH8K7yZKupIlekOhwG5827At25rN9nxZxdq.e65B1q8bLC', 'personal', 0.00),
 (5, 'Ashiq', 'ashiq@gmail.com', '$2y$10$m/JvtjkE1.nMnxGbqOCVLOWBM.a3eSh8XRqjlhp0IVWXaHVo2nJpK', 'personal', 0.00),
 (6, 'Siam', 'alu@gmail.com', '$2y$10$qWhL1p4nhPmz3EsbcuQXYOgpAMKvYXuZ2LHnLL1Q8MO3VOfmIrHcK', 'business', 0.00),
